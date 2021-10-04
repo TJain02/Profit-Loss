@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #111827;
+    --light-indigo:#A7F3D0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
+
+body{
+   margin-top: 175px;
+    background-color: var(--primary-color);
+    color: var(--light-indigo);
+    font-family: 'Encode Sans', sans-serif;
+    font-size: larger;
+    width: 100%;
+}
+    h1 {
+    text-align: center;
+}
+
+.main{
+    width: 25%;
+   margin: auto;  
+}
+
+input, label{
+  display: block;
+  text-align: center;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#check-btn{
+    display:block;
+    margin-top: 1rem;
+    margin:auto;
+    background: transparent;
+    color: var(--light-indigo);
+    border-color: var(--light-indigo);
+}
+
+#result-box{
+    display: block;
+    margin-top: auto;
+    padding: 1rem;
+    width:25%;
+    margin-left: 475px;
+}
+
+#initial-price{
+    display: block;
+    padding: 0.2rem;
+    width:25%;
+    margin-left: 475px;
+  
+}
+
+#current-price{
+   padding: 0.2em;
+   width:25%;
+    margin-left: 475px;
+}
+
+#stock-quantity{
+    padding: 0.2em;
+    width:25%;
+    margin-left: 475px;
+ }
